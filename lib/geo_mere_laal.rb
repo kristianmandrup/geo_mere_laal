@@ -1,3 +1,4 @@
+require 'geo_mere_laal_helper'
 
 class GeoMereLaal
   def self.init
@@ -5,4 +6,3 @@ class GeoMereLaal
   end
 end     
 
- 
