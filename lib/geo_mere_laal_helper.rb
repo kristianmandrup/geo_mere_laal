@@ -1,7 +1,5 @@
 # This module contains helper methods geo_mere_laal
 module GeoMereLaalHelper
-  
- 
   def latitude_field(object, method, options={})
     it =   ActionView::Helpers::InstanceTag.new(object.to_s.dup, method, self)
     result = it.to_input_field_tag("text", options)    
