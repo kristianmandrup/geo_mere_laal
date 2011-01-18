@@ -1,11 +1,29 @@
 GeoMereLaal   
 ===========
-(जियो मेरे लाल : ji-oo-me-re-laal : "Keep it up baby!")
 
-  GeoMereLaal plugin is all you need to create Location-Aware rails application based on   [W3C Geolocaton API](http://dev.w3.org/geo/api/spec-source.html "W3C draft for geolocation api"). 
+GeoMereLaal plugin is all you need to create Location-Aware rails application based on   [W3C Geolocaton API](http://dev.w3.org/geo/api/spec-source.html "W3C draft for geolocation api"). 
 
 Quick Audio Intro: [Thanks to Ruby5 Podcast](http://ruby5.envylabs.com/episodes/22-episode-21-october-23-2009/stories/173-geomerelaal-geolocation-plugin-for-rails "They pronounced जियो मेरे लाल so well")
 
+## Install
+
+You can either install it as a plugin or as a gem
+
+### Install as plugin
+
+<pre>rails plugin install git://github.com/kristianmandrup/geo_mere_laal.git</pre>
+                                                                                  
+## Install as gem
+
+<pre>gem install geo_mere_laal</pre>
+
+in Rails Gemfile, insert:
+
+<pre>gem 'geo_mere_laal'</pre>
+
+Then from CLI (console/terminal):
+
+<pre>$ bundle install</pre>
  
 ### What's Location-Awareness?
    W3C proposed an API in which internet browsers can have capability to retrieve geo-location of the user via multiple sources (Wifi, LBS, IP, browser cookies) and share it with web apps so that apps can serve content based on user's location.    
